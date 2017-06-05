@@ -43,6 +43,10 @@
 
 @import 'util/util';
 
+/* added custom color variables*/
+$primary: #0f74a0;
+$secondary: #9bc33f;
+
 // 1. Global
 // ---------
 
@@ -50,17 +54,18 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: $primary,
+  secondary: $secondary,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
 );
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$light-gray: #f4f4f4;
+$medium-gray: #494b4C;
+$dark-gray: #3D3F40;
+$medium-light-grey:#cccccc; /* medium-light-grey*/
+$black: #000000;
+$white: #ffffff;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -612,10 +617,9 @@ $tooltip-radius: $global-radius;
 // 37. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-padding: 1.5rem; /* changed padding in topbar */
+$topbar-background: $medium-gray; /* changed medium-gray */
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
-
