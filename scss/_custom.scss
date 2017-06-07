@@ -78,9 +78,7 @@ li i {
       border-bottom:3px solid $secondary;
     }
 }
-
 /* Show Case */
-
 .showcase{
   background: url('../img/showcase.jpg') no-repeat -100px 0;
   min-height: 450px;
@@ -112,8 +110,23 @@ li i {
       padding-top: 20px;
 
       a {
-        color:#fff;
+        color:$white;
       }
     }
    }
  }
+/* Domain Search Bar */
+.domain-search {
+  background: $light-gray;
+  padding:30px 20px 20px 20px;
+  border-bottom:3px #ccc solid;
+  margin-bottom:30px;
+
+    .domain-form {
+      input, .input-group-label {
+        border-color:$light-gray;
+      }
+    }
+}
+
+/* Package Boxes */
