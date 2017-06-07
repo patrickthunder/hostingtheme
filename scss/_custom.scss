@@ -9,17 +9,16 @@
 
 .top-list {
   padding: 0px;
-  margin:0px;
+  margin: 0px;
   list-style-type: none;
-  overflow: hidden;
-  //nested sass "sweet!"
-    li {
-      list-style: none;
-      float: left;
-      padding: 10px 15px;
-      color: $white;
-      font-size: 13px;
-    }
+  overflow: hidden; //nested sass "sweet!"
+  li {
+    list-style: none;
+    float: left;
+    padding: 10px 15px;
+    color: $white;
+    font-size: 13px;
+  }
 }
 
 li:first-child {
@@ -36,7 +35,6 @@ li i {
   list-style: none;
   overflow: hidden;
   float: right;
-
   li {
     list-style: none;
     float: left;
@@ -44,89 +42,87 @@ li i {
     color: $white;
     font-size: 13px;
   }
-
   a {
     color: $white;
   }
 }
 
-/* top bar */
-.top-bar {
-  color:$white;
 
-  span{
-    color:lighten ($primary, 30%);
-    background:$dark-gray;
+/* top bar */
+
+.top-bar {
+  color: $white;
+  span {
+    color: lighten ($primary, 30%);
+    background: $dark-gray;
     padding: 5px 9px;
     margin-right: 4px;
   }
-
-    li {
-      text-transform: uppercase;
-    }
-
-    a {
-      color: $white;
-    }
-
-    a:hover{
-      color: $secondary;
-    }
-
-    a.current{
-      color:$secondary;
-      border-bottom:3px solid $secondary;
-    }
+  li {
+    text-transform: uppercase;
+  }
+  a {
+    color: $white;
+  }
+  a:hover {
+    color: $secondary;
+  }
+  a.current {
+    color: $secondary;
+    border-bottom: 3px solid $secondary;
+  }
 }
+
+
 /* Show Case */
-.showcase{
+
+.showcase {
   background: url('../img/showcase.jpg') no-repeat -100px 0;
   min-height: 450px;
-  color:$white;
-
-    .showcase-box {
-      padding: 20px 30px;
-      margin-top: 30px;
-      background: $primary;
-      color: #ffffff;
-      border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
-        p {
-          border-bottom: 1px #ccc solid;
-          padding-bottom: 10px;
-        }
+  color: $white;
+  .showcase-box {
+    padding: 20px 30px;
+    margin-top: 30px;
+    background: $primary;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    p {
+      border-bottom: 1px #ccc solid;
+      padding-bottom: 10px;
     }
-.showcase-box-bottom {
-  background: $secondary;
-  padding: 10px 30px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-
+  }
+  .showcase-box-bottom {
+    background: $secondary;
+    padding: 10px 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     .pricing span {
       font-size: 35px;
-      font-weight:bold;
+      font-weight: bold;
     }
-    .start-link{
+    .start-link {
       padding-top: 20px;
-
       a {
-        color:$white;
+        color: $white;
       }
     }
-   }
- }
+  }
+}
+
 /* Domain Search Bar */
+
 .domain-search {
   background: $light-gray;
-  padding:30px 20px 20px 20px;
-  border-bottom:3px #ccc solid;
-  margin-bottom:30px;
-
-    .domain-form {
-      input, .input-group-label {
-        border-color:$light-gray;
-      }
+  padding: 30px 20px 20px 20px;
+  border-bottom: 3px #ccc solid;
+  margin-bottom: 30px;
+  .domain-form {
+    input, .input-group-label {
+      border-color: $light-gray;
     }
+  }
 }
+
 
 /* Package Boxes */
