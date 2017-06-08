@@ -123,4 +123,55 @@ li i {
   }
 }
 
-/* Package Boxes */
+/* Package Panel Boxes */
+.p-box-1,.p-box-2,.p-box-3{
+  text-align: center;
+
+  .fa{
+    font-size: 80px;
+  }
+
+  .features {
+    margin: 20px 0 30px 0;
+
+    li{
+      padding:10px 0 10px 0;
+      border-bottom: #ccc solid 1px;
+    }
+  }
+}
+
+/* Individual Panel Boxes, Pricing, and FA Icon */
+
+.p-box-1{
+  .fa{
+    color:$primary;
+  }
+    .pricing span{
+      font-size:35px;
+      font-weight:bold;
+      color:$primary;
+  }
+}
+
+.p-box-2{
+  .fa{
+    color:$secondary;
+  }
+    .pricing span{
+      font-size:35px;
+      font-weight:bold;
+      color:$secondary;
+  }
+}
+
+.p-box-3{
+  .fa{
+    color:$extra;
+  }
+    .pricing span{
+      font-size:35px;
+      font-weight:bold;
+      color:$extra;
+  }
+}

@@ -51,4 +51,6 @@
 @include motion-ui-animations;
 
 //custom css include;
+//custom css includes for custom folders and font awesome;
 @import '_custom.scss';
+@import '../bower_components/font-awesome-sass/assets/stylesheets/font-awesome';
