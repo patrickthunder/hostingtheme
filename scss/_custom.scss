@@ -47,13 +47,12 @@ li i {
   }
 }
 
-
 /* top bar */
 
 .top-bar {
   color: $white;
   span {
-    color: lighten ($primary, 30%);
+    color: $primary;
     background: $dark-gray;
     padding: 5px 9px;
     margin-right: 4px;
@@ -141,7 +140,7 @@ li i {
   }
 }
 
-/* Individual Panel Boxes, Pricing, and FA Icon */
+/* Individual Panel Boxes, Pricing, and FA Icons */
 
 .p-box-1{
   .fa{
@@ -174,4 +173,11 @@ li i {
       font-weight:bold;
       color:$extra;
   }
+}
+
+/* Section A */
+.section-a {
+  margin-top: 30px;
+  padding: 50px 0;
+  background-color: $light-gray;
 }
