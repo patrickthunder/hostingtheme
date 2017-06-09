@@ -123,6 +123,7 @@ li i {
 }
 
 /* Package Panel Boxes */
+
 .p-box-1,.p-box-2,.p-box-3{
   text-align: center;
 
@@ -200,7 +201,14 @@ li i {
     }
 }
 
+/* Footer*/
 
 footer {
   padding: 40px 0;
+}
+
+/* form callout class to cover form area */
+
+.callout {
+  overflow: hidden;
 }
