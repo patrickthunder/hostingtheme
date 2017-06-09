@@ -175,9 +175,27 @@ li i {
   }
 }
 
-/* Section A */
+/* Section A B C*/
+
 .section-a {
   margin-top: 30px;
   padding: 50px 0;
   background-color: $light-gray;
+}
+
+.section-b {
+  padding: 50px 0;
+  background-color: $dark-gray;
+  color:$white;
+  text-align: center;
+}
+
+.section-c {
+  background-color: $primary;
+  color:$white;
+  padding:50px 0;
+  text-align: center;
+    .fa {
+      font-size: 90px;
+    }
 }
