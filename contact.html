@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
   <!-- top navigation 2-6 Column Div-->
   <div class="top-nav">
     <div class="row">
@@ -65,6 +66,7 @@
       </div>
     </div>
   </section>
+
   <!-- Contact Us  -->
   <section class="row about">
     <div class="large-12 columns">
@@ -82,7 +84,6 @@
           </label>
           <button class="button secondary" type="submit">Submit</button>
         </div>
-
 
         <div class="columns large-6 medium-6">
           <label>Email
@@ -168,6 +169,35 @@
       </div>
     </div>
   </footer>
+
+  <!-- log in modal reveal, no php includes, frontend only-->
+
+  <div class="reveal" id="loginModal" data-reveal>
+    <h1>Client Login</h1>
+    <form>
+      <div class="row">
+        <label>
+              <input type="text" placeholder="Username">
+            </label>
+      </div>
+      <div class="row">
+        <label>
+              <input type="password" placeholder="Password">
+            </label>
+      </div>
+      <span class="float-left remember">Remember Me</span>
+      <div class="switch">
+        <input class="switch-input" id="rememberSwitch" type="checkbox" name="rememberSwitch">
+        <label class="switch-paddle" for="rememberSwitch">
+              <span class="show-for-sr">Remember Me?</span>
+            </label>
+      </div>
+      <button class="button" type="submit">Login</button>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+    </form>
+  </div>
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/what-input/dist/what-input.js"></script>
